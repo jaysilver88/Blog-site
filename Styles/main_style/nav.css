@@ -1,0 +1,51 @@
+
+a {
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.nav-links li {
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.nav-links li:hover {
+    background-color: #02B3E4;
+}
+
+.nav-links a li {
+    text-decoration: none;
+    color: #F5FCFE;
+
+    
+}
+
+#active {
+    background-color: #017A9B;
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .nav-links li {
+        margin: 0;
+        padding: 10px;
+    }
+
+}
+

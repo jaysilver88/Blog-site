@@ -1,0 +1,97 @@
+@import url(/Styles/main_style/nav.css);
+@import url(/Styles/main_style/socials.css);
+@import url(/Styles/main_style/session.css);
+
+
+
+main {
+    background-color: #2E3D49;
+}
+
+h1 {
+    color: #F5FCFE;
+}
+
+h3 {
+    color: #11161A;
+    background-color: #a4e4f5;
+    border: 5px solid #11161A;
+    text-align: center;
+    width: 285px;
+}
+
+
+.container1 {
+    border: 5px solid #a4e4f5;
+    width: 305px;
+    padding: 5px;
+    background-color: #143748;
+}
+
+.name {
+    padding: 5px;
+}
+
+.info {
+    border: 1px solid #a4e4f5;
+    padding: 1px;
+    width:300px;
+}
+
+#pix {
+    width: 300px;
+    height: 200px;
+    padding: 1px;
+    border: 1px solid #a4e4f5;
+    margin-right: 10px
+}
+
+p {
+    text-align: center;
+    color: #11161A;
+    background-color: #a4e4f5;
+    border: 5px solid #11161A;
+}
+
+.card-ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    list-style: none;
+    font-size: 10px;
+    margin: 5px;
+    outline: 5px solid #a4e4f5;
+    border: 1px solid #11161A;
+    background-color: #11161A;
+    text-align: center;
+   
+
+}
+
+.card-ul li span {
+    font-weight: bold;
+    background-color: #11161A;
+
+}
+
+.card-ul li div {
+    background-color: #11161A;
+}
+
+.fact {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.card-ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.midspan {
+    background-color: #a4e4f5;
+    color: #F5FCFE;
+}
+

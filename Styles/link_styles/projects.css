@@ -1,0 +1,69 @@
+@import url(/Styles/main_style/nav.css);
+@import url(/Styles/link_styles/projects.css);
+@import url(/Styles/main_style/session.css);
+
+#goldpix {
+    width: 300px;
+    height: 200px;
+}
+
+.main-project {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "hd hd"
+    "sct1 sct2"
+    "sct3 sct4";
+    gap: 48px;
+}
+
+section {
+    display: flex;
+    width: 320px;
+    height: 400px;
+    margin-bottom: 16px;
+}
+
+.refcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    grid-area: sct1;
+}
+
+.refcard:hover {
+    background-color: #02B3E4;
+}
+
+.proj-description {
+    text-align: center;
+}
+
+.heading {
+    grid-area: hd;
+    text-align: center;
+}
+
+.blanks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 976px) {
+    .main-project {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "hd"
+        "sct1"
+        "sct2"
+        "sct3"
+        "sct4";
+        gap: 48px;
+    }
+}
