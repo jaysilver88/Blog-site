@@ -1,6 +1,4 @@
-@import url(/Styles/main_style/nav.css);
-@import url(/Styles/link_styles/projects.css);
-@import url(/Styles/main_style/session.css);
+@import url(../main_style/session.css);
 
 #goldpix {
     width: 300px;
