@@ -1,50 +1,58 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="/Styles/link_styles/projects.css">
+    <link rel="stylesheet" href="/Styles/link_styles/card-import.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <title>Blog Home Page</title>
+    <title>Projects</title>
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
             <ul class="nav-links">
                 <a href="/index.html"><li>Home</li></a>
-                <a href="/Site_links/projects.html"><li id="active">Projects</li></a>
+                <a href="/projects.html"><li id="active">Projects</li></a>
                 <a href=""><li>Aphorisms</li></a>
                 <a href=""><li>Contact</li></a>
             </ul>
         </div>
-        <main class="main-project">
-            <h1 class="heading">Projects</h1>
-            <section>
-                <a href="session-project-card.html" class="refcard">
-                    <h3>
-                        Udacity Trading Card Project
-                    </h3>
-                    <img src="/golden_ratio.jpg" alt="golden ratio" id="goldpix">
-                    <p>Creator - Joel Leveille
-                    <div class="proj-description">
-                        Projects made during Udacity Front End Development Nano Degree
-                    </div>
-
-                </a>
-            </section>
-            <section class="blanks">
-                <p>Future Projects Soon to Come!</p>
-            </section>
-            <section class="blanks">
-                <p>Future Projects Soon to Come!</p>
-            </section>
-            <section class="blanks">
-                <p>Future Projects Soon to Come!</p>
-            </section>
-
+        <main>
+            <h1>Trading Card Project</h1>
+            <div class="container1">
+                <div>
+               <!-- your favorite animal's name goes here -->
+                   <h3 class="name">Garrus Vakarian</h3>
+               <!-- your favorite animal's image goes here -->
+            
+                   <img id="pix" src="/garrus_vakarian.jpg" alt="Picture of Garrus Vakarian">
+               </div>
+               <div class="info">
+                   <!-- your favorite animal's interesting fact goes here -->
+                   <p class="name"><strong>The Archangel</strong></p>
+                   <ul class="card-ul">
+                       <!-- your favorite animal's list items go here -->
+                       <li><span class="leftspan">Race:</span>
+                           <span class="midspan">Turian Rebel</span>
+                           <div> Renegade-Weapon Damage: +25%</div></li>
+                       <li><span class="leftspan">Powers:</span>
+                           <span class="midspan">Overload</span>
+                           <div> Lv4 Area Overload DMG: 298</div></li>
+                       <li><span class="leftspan">Weapon of Choice:</span>
+                           <span class="midspan">M-98 Widow</span>
+                           <div> Base DMG: 368</div></li>
+                       <li><span class="leftspan">Ammo:</span>
+                           <span class="midspan">Armor-Piercing</span>
+                           <div> Lv4 +70% Weapon Damage</div></li>
+                   </ul>
+                   <!-- your favorite animal's description goes here -->
+                   <p class="fact"><strong>"Over the years I've gotten used to the smell of dead bodies. <br>That's probably a bad sign."</strong></p>
+               </div>
+            </div>
         </main>
         <footer>
             <ul class="socials">
@@ -73,3 +81,4 @@
     </div>
 </body>
 </html>
+
