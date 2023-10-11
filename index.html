@@ -8,18 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <title>Blog Home Page</title>
+    <title>Home Page</title>
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
+        <header class="sidebar">
             <ul class="nav-links">
                 <a href="./index.html"><li id="active">Home</li></a>
-                <a href="./projects.html"><li>Projects</li></a>
-                <a href="./aphorisms.html"><li>Aphorisms</li></a>
-                <a href="./contact.html"><li>Contact</li></a>
+                <a href="./Site_pages/projects.html"><li>Projects</li></a>
+                <a href="./Site_pages/aphorisms.html"><li>Aphorisms</li></a>
+                <a href="./Site_pages/contact.html"><li>Contact</li></a>
             </ul>
-        </div>
+        </header>
         <main>
             <img 
                 class="profile-image" 
@@ -27,15 +27,23 @@
             <div class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quos quam dolorem, recusandae aliquam deserunt quae ducimus obcaecati.</div>
             <div class="home-cards">
                 <div id="hc1">
-                    <a href="./session-project-card.html"><img src="./blue_galaxy.jpg" alt="blue galaxy" id="gal"> <h3>Most Recent Project!!</h3></a>
+                    <a href="./Site_pages/session-project-card.html">
+                        <button>
+                        <img src="./Images/blue_galaxy.jpg" alt="blue galaxy" id="gal"> <h3>Most Recent Project!!</h3>
+                        </button>
+                    </a>
                 </div>
                 <div id="hc2">
-                    <a href="./aphorisms.html"><img src="./lower_blue_gal.jpg" alt="lower blue galaxy" id="gal"> <h3>Lorem Ipsum!!</h3></a>
-                </div>
-                <div id="hc3">
-                    <a href="./contact.html"><h3>More about Lorem Ipsum!!</h3></a>
+                    <a href="./Site_pages/aphorisms.html">
+                        <button>
+                            <img src="./Images/lower_blue_gal.jpg" alt="lower blue galaxy" id="gal"> <h3>Lorem Ipsum!!</h3>
+                        </button>
+                    </a>
                 </div>
             </div>    
+                <div id="hc3">
+                    <a href="./Site_pages/contact.html"><h3>More about Lorem Ipsum!!</h3></a>
+                </div>
         </main>
         <footer>
             <ul class="socials">

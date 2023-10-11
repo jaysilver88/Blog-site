@@ -3,28 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="./Styles/main_style/session.css">
+    <link rel="stylesheet" href="../Styles/link_styles/projects.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <title>Blog Home Page</title>
+    <title>Projects</title>
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
+        <header class="sidebar">
             <ul class="nav-links">
-                <a href="./index.html"><li>Home</li></a>
-                <a href="./projects.html"><li>Projects</li></a>
+                <a href="/index.html"><li>Home</li></a>
+                <a href="./projects.html"><li id="active">Projects</li></a>
                 <a href="./aphorisms.html"><li>Aphorisms</li></a>
-                <a href="./contact.html"><li id="active">Contact</li></a>
+                <a href="./contact.html"><li>Contact</li></a>
             </ul>
-        </div>
-        <main>
-            <img 
-                class="profile-image" 
-                src=https://th.bing.com/th?id=OIP.7nEHI40u3QKofL2VS3-QowHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"" alt="Profile"/>
-            <div>CONTACT PAGE COMING SOON!!!</div>
+        </header>
+        <main class="main-project">
+            <h1 class="heading">Projects</h1>
+                <section>
+                    <a href="./session-project-card.html" class="refcard">
+                        <h3>
+                            Udacity Trading Card Project
+                        </h3>
+                        <img src="../Images/golden_ratio.jpg" alt="golden ratio" id="goldpix">
+                        <figcaption>Author - Joel Leveille - Oct/4/2023</figcaption>
+                        <div class="proj-description">
+                            <p>Projects made during Udacity Front End Development Nano Degree</p>
+                            <h4> Click here to see!</h4>
+                        </div>
+                    </a>
+                </section>
+            <section class="blanks">
+                <p>Future Projects Soon to Come!</p>
+            </section>
+            <section class="blanks">
+                <p>Future Projects Soon to Come!</p>
+            </section>
+            <section class="blanks">
+                <p>Future Projects Soon to Come!</p>
+            </section>
+
         </main>
         <footer>
             <ul class="socials">
