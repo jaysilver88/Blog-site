@@ -59,6 +59,29 @@ footer {
     background-color: #F5FCFE;
 }
 
+#gal {
+    height: 200px;
+    width: 300px;
+
+}
+
+.home-cards {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+
+}
+
+#hc1 {
+    display: flex;
+    text-align: center;
+}
+
+#hc2 {
+    display: flex;
+    text-align: center;
+
+}
 
 @media screen and (max-width: 600px) {
     .container {
@@ -68,6 +91,12 @@ footer {
         "ft";
         grid-template-columns: auto;
         grid-template-rows: 120px auto auto;
+    }
+    .home-cards {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+
     }
 
     main {
