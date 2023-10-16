@@ -80,6 +80,7 @@ p {
 .fact {
     font-style: italic;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .card-ul {
